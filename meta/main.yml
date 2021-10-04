@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: sshd
+  role_name: smb_mount
   namespace: escalate
   author: Felix Boerner
   description: Manage SMB (Server Message Block) mounts on Raspberry Pi OS
