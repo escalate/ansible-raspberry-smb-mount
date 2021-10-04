@@ -20,3 +20,4 @@
     opts: "defaults,username={{ item.username }},password={{ item.password }},{{ item.options | default('uid=0,gid=0,file_mode=0644,dir_mode=0755,iocharset=utf8') }}"
     state: mounted
   loop: "{{ smb_mount_list }}"
+  no_log: true
