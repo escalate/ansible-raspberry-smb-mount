@@ -1,14 +1,8 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-smb-mount/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-smb-mount/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-smb-mount/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-smb-mount/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - SMB Mount
 
 An Ansible role that manages SMB (Server Message Block) mounts on Raspberry Pi OS (Debian Bookworm).
-
-## Install
-
-```
-$ ansible-galaxy install escalate.smb_mount
-```
 
 ## Role Variables
 
@@ -20,6 +14,12 @@ This role relies on the following dependencies:
 
 * Roles: None
 * Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-smb-mount/blob/master/requirements.yml)
+
+## Installation
+
+```
+$ ansible-galaxy role install escalate.smb_mount
+```
 
 ## Example Playbook
 
