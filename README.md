@@ -12,8 +12,8 @@ Please see [defaults/main.yml](https://github.com/escalate/ansible-raspberry-smb
 
 This role relies on the following dependencies:
 
-* Roles: None
-* Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-smb-mount/blob/master/requirements.yml)
+- Roles: None
+- Collections: [requirements.yml](https://github.com/escalate/ansible-raspberry-smb-mount/blob/master/requirements.yml)
 
 ## Installation
 
